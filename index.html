@@ -80,7 +80,7 @@
 						<h5 class="card-title">Оформить заказ</h4>
 						<form>
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+								<input type="tel" id="phone" name="phone" maxlength="18" class="form-control" placeholder="Ваш номер телефона">
 							</div>
 							<button type="submit" class="btn btn-primary">Заказать</button>
 						</form>
@@ -96,6 +96,7 @@
 	</div>
 
 	<!-- Подключаем скрипты -->
+	<script src="/js/phone-mask.js"></script>
 <script src="/js/theme.js"></script>
 <script src="js/renderProducts.js"></script>
 <script src="js/calcCartPrice.js"></script>
